@@ -1,0 +1,569 @@
+﻿Log file open, 11/14/17 16:32:34
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: EndlessRunner
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(280090116) SRandInit(280090116).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.166459
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.15-00.32.35:058][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.15-00.32.35:058][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.15-00.32.35:068][  0]LogInit: Computer: DESKTOP-KK7AP88
+[2017.11.15-00.32.35:068][  0]LogInit: User: Branden
+[2017.11.15-00.32.35:068][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.15-00.32.35:068][  0]LogInit: High frequency timer resolution =3.234373 MHz
+[2017.11.15-00.32.35:068][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.11.15-00.32.35:068][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.15-00.32.35:068][  0]LogMemory: Process Physical Memory: 280.48 MB used, 280.48 MB peak
+[2017.11.15-00.32.35:068][  0]LogMemory: Process Virtual Memory: 274.01 MB used, 274.01 MB peak
+[2017.11.15-00.32.35:068][  0]LogMemory: Physical Memory: 5053.38 MB used,  11290.94 MB free, 16344.32 MB total
+[2017.11.15-00.32.35:068][  0]LogMemory: Virtual Memory: 702.03 MB used,  11290.94 MB free, 134217728.00 MB total
+[2017.11.15-00.32.35:197][  0]LogInit: Using OS detected language (en-US).
+[2017.11.15-00.32.35:197][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.15-00.32.35:199][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.15-00.32.35:761][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.15-00.32.35:796][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.15-00.32.35:796][  0]LogD3D11RHI:       8096/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.15-00.32.35:798][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.15-00.32.35:798][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.15-00.32.35:798][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.15-00.32.35:803][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.15-00.32.35:803][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.15-00.32.35:803][  0]LogWindows: EnumDisplayDevices:
+[2017.11.15-00.32.35:803][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.15-00.32.35:803][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.15-00.32.35:803][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.15-00.32.35:803][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.15-00.32.35:803][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.15-00.32.35:803][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.15-00.32.35:803][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.15-00.32.35:803][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.15-00.32.35:803][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.15-00.32.35:821][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.15-00.32.35:835][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.15-00.32.35:877][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Intermediate/Shaders/WorkingDirectory/10376/).
+[2017.11.15-00.32.35:877][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Branden/AppData/Local/Temp/UnrealShaderWorkingDir/D5C0318E43AA5E57DD7300BCC224BD2C/'.
+[2017.11.15-00.32.35:877][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.15-00.32.36:711][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.15-00.32.36:755][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.15-00.32.36:798][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.15-00.32.36:844][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.15-00.32.36:894][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.15-00.32.36:945][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.15-00.32.36:993][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.15-00.32.37:042][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.15-00.32.37:085][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.15-00.32.37:132][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.15-00.32.37:176][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.15-00.32.37:222][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.15-00.32.37:268][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.15-00.32.37:315][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.15-00.32.37:362][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.15-00.32.37:461][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.15-00.32.37:461][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.15-00.32.37:498][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.15-00.32.37:585][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.15-00.32.37:612][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.15-00.32.37:656][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.15-00.32.37:702][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.15-00.32.37:748][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.15-00.32.37:805][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.15-00.32.37:805][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.15-00.32.38:256][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.15-00.32.38:323][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/Branden/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.15-00.32.38:323][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Branden/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.15-00.32.38:323][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.15-00.32.38:323][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.15-00.32.38:323][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.15-00.32.38:323][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.15-00.32.38:339][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.15-00.32.38:351][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Branden/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.15-00.32.38:360][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.15-00.32.38:360][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.15-00.32.38:361][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.15-00.32.38:361][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.15-00.32.38:653][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2017.11.15-00.32.38:845][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.15-00.32.38:969][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.15-00.32.39:296][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.15-00.32.39:343][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.15-00.32.39:343][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.15-00.32.39:343][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.15-00.32.39:343][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.15-00.32.39:343][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.15-00.32.39:671][  0]LogNetVersion: EndlessRunner , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4257649686)
+[2017.11.15-00.32.39:897][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.053993 seconds
+[2017.11.15-00.32.39:902][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.15-00.32.39:902][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.11.15-00.32.39:902][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.15-00.32.39:977][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.15-00.32.42:570][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.15-00.32.42:604][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.15-00.32.43:197][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.15-00.32.43:567][  0]SourceControl: Source control is disabled
+[2017.11.15-00.32.44:432][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.15-00.32.44:645][  0]LogOcInput: OculusInput pre-init called
+[2017.11.15-00.32.44:876][  0]LogEngine: Initializing Engine...
+[2017.11.15-00.32.44:878][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.15-00.32.45:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.15-00.32.45:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.15-00.32.45:176][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.15-00.32.45:184][  0]LogInit: XAudio2 using 'VG248-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.15-00.32.45:203][  0]LogInit: FAudioDevice initialized.
+[2017.11.15-00.32.45:321][  0]LogDerivedDataCache: Saved boot cache 0.12s 93MB C:/Users/Branden/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.15-00.32.45:330][  0]LogInit: Texture streaming: Enabled
+[2017.11.15-00.32.45:441][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.15-00.32.45:645][  0]LogInit: Transaction tracking system initialized
+[2017.11.15-00.32.46:010][  0]BlueprintLog: New page: Editor Load
+[2017.11.15-00.32.46:813][  0]LocalizationService: Localization service is disabled
+[2017.11.15-00.32.47:700][  0]LogConsoleResponse: Display: 
+[2017.11.15-00.32.47:858][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.15-00.32.47:858][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.15-00.32.47:858][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.15-00.32.47:902][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/' took 0.01s
+[2017.11.15-00.32.48:771][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.15-00.32.48:772][  0]LightingResults: New page: Lighting Build
+[2017.11.15-00.32.48:807][  0]MapCheck: New page: Map Check
+[2017.11.15-00.32.48:807][  0]LightingResults: New page: Lighting Build
+[2017.11.15-00.32.49:308][  0]LogAIModule: Creating AISystem for world MainMenuLevel
+[2017.11.15-00.32.49:313][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.15-00.32.49:324][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.15-00.32.49:375][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.931ms to complete.
+[2017.11.15-00.32.49:375][  0]LogFileHelpers: Loading map 'MainMenuLevel' took 0.604
+[2017.11.15-00.32.49:487][  0]LogCollectionManager: Loaded 0 collections in 0.001375 seconds
+[2017.11.15-00.32.49:578][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Collections/' took 0.01s
+[2017.11.15-00.32.49:578][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Developers/Branden/Collections/' took 0.01s
+[2017.11.15-00.32.49:578][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Collections/' took 0.01s
+[2017.11.15-00.32.49:578][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.15-00.32.49:588][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2386 classes and 500 folders.
+[2017.11.15-00.32.49:646][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.15-00.32.49:746][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.15-00.32.49:846][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.15-00.32.49:892][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.15-00.32.49:894][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.15-00.32.49:897][  0]LogSlate: Took 0.001818 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.15-00.32.49:997][  0]LogRenderer: Reallocating scene render targets to support 792x924 Format 9 NumSamples 1 (Frame:1).
+[2017.11.15-00.32.50:148][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.11.15-00.32.50:148][  0]LogLoad: (Engine Initialization) Total time: 16.39 seconds
+[2017.11.15-00.32.50:148][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.15-00.32.50:149][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.15-00.32.50:149][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.15-00.32.50:160][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.15-00.32.50:189][  0]SourceControl: On branch master
+[2017.11.15-00.32.50:189][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.11.15-00.32.50:189][  0]SourceControl: Changes not staged for commit:
+[2017.11.15-00.32.50:189][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.15-00.32.50:189][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.15-00.32.50:189][  0]SourceControl: 	modified:   EndlessRunner/Intermediate/CachedAssetRegistry.bin
+[2017.11.15-00.32.50:189][  0]SourceControl: 	modified:   EndlessRunner/Saved/Config/Windows/Editor.ini
+[2017.11.15-00.32.50:189][  0]SourceControl: 	modified:   EndlessRunner/Saved/Logs/EndlessRunner.log
+[2017.11.15-00.32.50:189][  0]SourceControl: 	deleted:    EndlessRunner/Saved/Logs/EndlessRunner_2-backup-2017.11.13-11.55.44.log
+[2017.11.15-00.32.50:189][  0]SourceControl: Untracked files:
+[2017.11.15-00.32.50:189][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.15-00.32.50:189][  0]SourceControl: 	EndlessRunner/Saved/Config/CrashReportClient/UE4CC-Windows-982A859C4BB8D1F91FF295B441EBBC23/
+[2017.11.15-00.32.50:189][  0]SourceControl: 	EndlessRunner/Saved/Logs/EndlessRunner-backup-2017.11.14-16.32.34.log
+[2017.11.15-00.32.50:189][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.15-00.32.50:189][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.11.15-00.32.50:213][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/' took 0.04s
+[2017.11.15-00.32.50:221][  1]LogAssetRegistry: Asset discovery search completed in 11.5898 seconds
+[2017.11.15-00.32.50:224][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.15-00.32.50:224][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2017.11.15-00.33.15:031][508]LogRenderer: Reallocating scene render targets to support 796x924 Format 9 NumSamples 1 (Frame:4).
+[2017.11.15-00.33.15:079][509]LogRenderer: Reallocating scene render targets to support 808x924 Format 9 NumSamples 1 (Frame:6).
+[2017.11.15-00.33.15:096][510]LogSlate: Took 0.001346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-00.33.15:125][510]LogRenderer: Reallocating scene render targets to support 844x924 Format 9 NumSamples 1 (Frame:8).
+[2017.11.15-00.33.15:171][511]LogRenderer: Reallocating scene render targets to support 868x924 Format 9 NumSamples 1 (Frame:10).
+[2017.11.15-00.33.15:218][512]LogRenderer: Reallocating scene render targets to support 892x924 Format 9 NumSamples 1 (Frame:12).
+[2017.11.15-00.33.15:272][513]LogRenderer: Reallocating scene render targets to support 928x924 Format 9 NumSamples 1 (Frame:14).
+[2017.11.15-00.33.15:320][514]LogRenderer: Reallocating scene render targets to support 936x924 Format 9 NumSamples 1 (Frame:16).
+[2017.11.15-00.33.15:358][515]LogRenderer: Reallocating scene render targets to support 940x924 Format 9 NumSamples 1 (Frame:18).
+[2017.11.15-00.33.15:399][516]LogRenderer: Reallocating scene render targets to support 944x924 Format 9 NumSamples 1 (Frame:20).
+[2017.11.15-00.33.15:447][517]LogRenderer: Reallocating scene render targets to support 948x924 Format 9 NumSamples 1 (Frame:22).
+[2017.11.15-00.33.17:895][799]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-00.33.18:002][799]LogSavePackage: Save=48.89ms
+[2017.11.15-00.33.18:002][799]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/UEDPCMainMenuLevelD5051D55480F5FD279A60092742EA07B.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap'
+[2017.11.15-00.33.18:006][799]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap
+[2017.11.15-00.33.18:014][799]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.11.15-00.33.19:640][993]LogTemp: Repeating last play command: Standalone Game
+[2017.11.15-00.33.19:814][993]LogSavePackage: Save=46.34ms
+[2017.11.15-00.33.19:814][993]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/UEDPCMainMenuLevelFAB7D76B450C178E7659AE98749930B0.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap'
+[2017.11.15-00.33.19:817][993]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap
+[2017.11.15-00.33.19:823][993]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.11.15-00.33.48:822][649]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 113 classes and 0 folders.
+[2017.11.15-00.33.49:423][649]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.15-00.33.49:505][649]LogSlate: Took 0.001218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.15-00.33.49:654][650]LogSlate: Took 0.001768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.15-00.33.50:848][767]LogRenderer: Reallocating scene render targets to support 1036x924 Format 9 NumSamples 1 (Frame:1).
+[2017.11.15-00.34.11:837][202]BlueprintLog: New page: Compile BP_FloorTileFancy
+[2017.11.15-00.34.12:845][243]LogSavePackage: Save=87.86ms
+[2017.11.15-00.34.12:845][243]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/BP_FloorTileFancyB83AF59B49975C14B7BA1FAD5BD34115.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ThirdPersonBP/Blueprints/BP_FloorTileFancy.uasset'
+[2017.11.15-00.34.12:851][243]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ThirdPersonBP/Blueprints/BP_FloorTileFancy.uasset
+[2017.11.15-00.34.19:255][999]BlueprintLog: New page: Compile BP_FloorTileFancy
+[2017.11.15-00.34.20:186][ 37]LogSavePackage: Save=87.60ms
+[2017.11.15-00.34.20:186][ 37]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/BP_FloorTileFancy090A536E40AB6FED41D0179D67C4FE12.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ThirdPersonBP/Blueprints/BP_FloorTileFancy.uasset'
+[2017.11.15-00.34.20:192][ 37]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ThirdPersonBP/Blueprints/BP_FloorTileFancy.uasset
+[2017.11.15-00.34.21:566][201]LogTemp: Repeating last play command: Standalone Game
+[2017.11.15-00.34.21:778][201]LogSavePackage: Save=44.74ms
+[2017.11.15-00.34.21:778][201]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/UEDPCMainMenuLevel4A9F2EE34384F43A1492D9835CBA69B3.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap'
+[2017.11.15-00.34.21:780][201]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap
+[2017.11.15-00.34.21:786][201]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.11.15-00.35.34:274][984]BlueprintLog: New page: Compile spinners_tile
+[2017.11.15-00.35.35:199][ 15]LogSavePackage: Save=60.46ms
+[2017.11.15-00.35.35:199][ 15]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/spinners_tile2B0B60B0450FDB8527ED3DBEE82D9E40.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ThirdPersonBP/Blueprints/spinners_tile.uasset'
+[2017.11.15-00.35.35:205][ 15]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ThirdPersonBP/Blueprints/spinners_tile.uasset
+[2017.11.15-00.35.42:722][870]LogSavePackage: Save=46.12ms
+[2017.11.15-00.35.42:723][870]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/MainMenuLevel4CFC99B6464AA03954DB0583CB92B51B.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel.umap'
+[2017.11.15-00.35.42:725][870]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel.umap
+[2017.11.15-00.35.42:833][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenuLevel_BuiltData" FILE="../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel_BuiltData.uasset" SILENT=true
+[2017.11.15-00.35.42:889][870]LogSavePackage: Save=8.47ms
+[2017.11.15-00.35.42:889][870]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/MainMenuLevel_BuiltDataE790391A4BF529EDFB416BBAA300D198.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel_BuiltData.uasset'
+[2017.11.15-00.35.42:891][870]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel_BuiltData.uasset
+[2017.11.15-00.36.00:802][907]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Branden/Downloads/Ship.obj)
+[2017.11.15-00.36.00:821][907]LogFbx: Loading FBX Scene from ../../../../../../Users/Branden/Downloads/Ship.obj
+[2017.11.15-00.36.00:827][907]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-00.36.28:788][907]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-00.36.42:450][907]LogFbx: Loading FBX Scene from ../../../../../../Users/Branden/Downloads/Ship.obj
+[2017.11.15-00.36.42:453][907]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-00.36.42:455][907]LogFbx: Warning: Triangulating static mesh default
+[2017.11.15-00.36.42:480][907]LogStaticMesh: Building static mesh Ship...
+[2017.11.15-00.36.42:483][907]LogStaticMesh: Built static mesh [0.00s] /Game/ObjectModels/Ship.Ship
+[2017.11.15-00.36.42:485][907]LogStaticMesh: Warning: Ship has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-00.36.42:496][907]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.15-00.36.42:496][907]FBXImport: Warning: Ship has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.15-00.36.51:143][846]LogRenderer: Reallocating scene render targets to support 1432x924 Format 9 NumSamples 1 (Frame:1).
+[2017.11.15-00.37.04:375][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ObjectModels/Ship" FILE="../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ObjectModels/Ship.uasset" SILENT=true
+[2017.11.15-00.37.04:384][401]LogSavePackage: Save=7.16ms
+[2017.11.15-00.37.04:384][401]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Ship881215A2477BF722CFD5B9BEAF75C9DB.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ObjectModels/Ship.uasset'
+[2017.11.15-00.37.04:389][401]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ObjectModels/Ship.uasset
+[2017.11.15-00.37.06:791][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ObjectModels/Ship" FILE="../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ObjectModels/Ship.uasset" SILENT=true
+[2017.11.15-00.37.06:842][667]LogSavePackage: Save=3.21ms
+[2017.11.15-00.37.06:842][667]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Ship47248BB94A56D221DC0D3A9AD8D0B6BF.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ObjectModels/Ship.uasset'
+[2017.11.15-00.37.06:844][667]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ObjectModels/Ship.uasset
+[2017.11.15-00.38.00:243][231]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Branden/Downloads/Ship.obj)
+[2017.11.15-00.38.00:244][231]LogEditorFactories: Performing atomic reimport of [C:/Users/Branden/Downloads/Ship.obj]
+[2017.11.15-00.38.00:251][231]LogFbx: Loading FBX Scene from C:/Users/Branden/Downloads/Ship.obj
+[2017.11.15-00.38.00:253][231]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-00.38.00:254][231]LogFbx: Warning: Triangulating static mesh default
+[2017.11.15-00.38.00:273][231]LogStaticMesh: Building static mesh Ship...
+[2017.11.15-00.38.00:275][231]LogStaticMesh: Built static mesh [0.00s] /Game/ObjectModels/Ship.Ship
+[2017.11.15-00.38.00:276][231]LogStaticMesh: Warning: Ship has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-00.38.00:280][231]LogEditorFactories: -- imported successfully
+[2017.11.15-00.38.00:282][231]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.15-00.38.00:282][231]FBXImport: Warning: Ship has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.15-00.38.53:787][670]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Branden/Downloads/ShipRetry.obj)
+[2017.11.15-00.38.53:796][670]LogFbx: Loading FBX Scene from ../../../../../../Users/Branden/Downloads/ShipRetry.obj
+[2017.11.15-00.38.53:798][670]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-00.39.11:366][670]LogFbx: Loading FBX Scene from ../../../../../../Users/Branden/Downloads/ShipRetry.obj
+[2017.11.15-00.39.11:369][670]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-00.39.11:370][670]LogFbx: Warning: Triangulating static mesh default
+[2017.11.15-00.39.11:390][670]LogStaticMesh: Building static mesh ShipRetry...
+[2017.11.15-00.39.11:393][670]LogStaticMesh: Built static mesh [0.00s] /Game/ObjectModels/ShipRetry.ShipRetry
+[2017.11.15-00.39.11:394][670]LogStaticMesh: Warning: ShipRetry has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-00.39.11:402][670]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.15-00.39.11:402][670]FBXImport: Warning: ShipRetry has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.15-00.40.18:296][436]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.18:296][436]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.18:297][436]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.18:297][436]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.18:305][437]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.18:305][437]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.18:306][437]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.18:306][437]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.19:704][595]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.19:704][595]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.19:705][595]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.19:705][595]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.19:713][596]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.19:713][596]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.19:713][596]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.19:713][596]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.19:721][597]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.19:721][597]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.19:722][597]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.19:722][597]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.19:731][598]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.19:731][598]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.19:731][598]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.19:731][598]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.19:756][601]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.19:756][601]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.19:757][601]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.19:757][601]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.19:765][602]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.19:765][602]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.19:766][602]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.19:766][602]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.26:132][332]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.26:132][332]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.26:133][332]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.26:133][332]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.26:142][333]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.26:142][333]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.26:142][333]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.26:142][333]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:258][572]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:258][572]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:259][572]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:259][572]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:267][573]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:267][573]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:268][573]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:268][573]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:276][574]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:276][574]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:276][574]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:276][574]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:284][575]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:284][575]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:285][575]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:285][575]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:293][576]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:293][576]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:293][576]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:293][576]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:302][577]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:302][577]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:302][577]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:302][577]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:353][583]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:353][583]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:354][583]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:354][583]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:362][584]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:362][584]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:362][584]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:362][584]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:475][596]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:475][596]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:476][596]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:476][596]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:485][597]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:485][597]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.28:485][597]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2017.11.15-00.40.28:485][597]LogPhysics: Warning: ForeachShape(Convex): [/Game/ObjectModels/ShipRetry.ShipRetry] ScaledElem[0] invalid
+[2017.11.15-00.40.39:518][872]LogEditorTransaction: Undo Remove Components
+[2017.11.15-00.40.41:969][131]LogEditorTransaction: Undo Modify Component(s)
+[2017.11.15-00.40.44:321][378]LogEditorTransaction: Undo Modify Component(s)
+[2017.11.15-00.40.54:332][520]LogEditorTransaction: Undo Edit Static Mesh
+[2017.11.15-00.40.54:338][520]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_34:PersistentLevel.RunCharacter_C_1.CollisionCylinder) Component already registered.
+[2017.11.15-00.40.54:691][531]LogEditorTransaction: Undo Modify Component(s)
+[2017.11.15-00.40.55:236][567]LogEditorTransaction: Undo Modify Component(s)
+[2017.11.15-00.40.55:810][607]LogEditorTransaction: Undo Edit Static Mesh
+[2017.11.15-00.40.55:816][607]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_34:PersistentLevel.RunCharacter_C_1.CollisionCylinder) Component already registered.
+[2017.11.15-00.41.34:128][904]LogEditorFactories: Performing atomic reimport of [C:/Users/Branden/Downloads/ShipRetry.obj]
+[2017.11.15-00.41.34:143][904]LogFbx: Loading FBX Scene from C:/Users/Branden/Downloads/ShipRetry.obj
+[2017.11.15-00.41.34:146][904]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-00.41.34:147][904]LogFbx: Warning: Triangulating static mesh default
+[2017.11.15-00.41.34:172][904]LogStaticMesh: Building static mesh ShipRetry...
+[2017.11.15-00.41.34:175][904]LogStaticMesh: Built static mesh [0.00s] /Game/ObjectModels/ShipRetry.ShipRetry
+[2017.11.15-00.41.34:177][904]LogStaticMesh: Warning: ShipRetry has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-00.41.34:185][904]LogEditorFactories: -- imported successfully
+[2017.11.15-00.41.34:188][904]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.15-00.41.34:188][904]FBXImport: Warning: ShipRetry has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.15-00.44.45:877][695]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Branden/Downloads/Ship2.obj)
+[2017.11.15-00.44.45:884][695]LogFbx: Loading FBX Scene from ../../../../../../Users/Branden/Downloads/Ship2.obj
+[2017.11.15-00.44.45:886][695]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-00.44.51:751][695]LogFbx: Loading FBX Scene from ../../../../../../Users/Branden/Downloads/Ship2.obj
+[2017.11.15-00.44.51:755][695]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.15-00.44.51:755][695]LogFbx: Warning: Triangulating static mesh default
+[2017.11.15-00.44.51:776][695]LogStaticMesh: Building static mesh Ship2...
+[2017.11.15-00.44.51:780][695]LogStaticMesh: Built static mesh [0.00s] /Game/ObjectModels/Ship2.Ship2
+[2017.11.15-00.44.51:781][695]LogStaticMesh: Warning: Ship2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.11.15-00.44.51:790][695]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.15-00.44.51:790][695]FBXImport: Warning: Ship2 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.11.15-00.45.58:211][362]BlueprintLog: New page: Compile RunCharacter
+[2017.11.15-00.46.01:516][362]LogActor: Warning: Spinner_C /Engine/Transient.World_24:PersistentLevel.ChildActor_GEN_VARIABLE_Spinner_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.11.15-00.46.01:517][362]LogActor: Warning: Spinner_C /Engine/Transient.World_24:PersistentLevel.ChildActor1_GEN_VARIABLE_Spinner_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.11.15-00.46.01:661][362]LogActor: Warning: Spinner_C /Engine/Transient.World_6:PersistentLevel.ChildActor1_GEN_VARIABLE_Spinner_C_CAT_594 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.11.15-00.46.01:666][362]LogActor: Warning: Spinner_C /Engine/Transient.World_6:PersistentLevel.ChildActor_GEN_VARIABLE_Spinner_C_CAT_595 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.11.15-00.46.02:229][362]LogActor: Warning: Windmill_C /Engine/Transient.World_8:PersistentLevel.ChildActor_GEN_VARIABLE_Windmill_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.11.15-00.46.02:230][362]LogActor: Warning: Windmill_C /Engine/Transient.World_8:PersistentLevel.ChildActor1_GEN_VARIABLE_Windmill_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.11.15-00.46.21:950][564]BlueprintLog: New page: Compile RunCharacter
+[2017.11.15-00.46.24:435][564]LogActor: Warning: Spinner_C /Engine/Transient.World_24:PersistentLevel.ChildActor_GEN_VARIABLE_Spinner_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.11.15-00.46.24:435][564]LogActor: Warning: Spinner_C /Engine/Transient.World_24:PersistentLevel.ChildActor1_GEN_VARIABLE_Spinner_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.11.15-00.46.24:541][564]LogActor: Warning: Spinner_C /Engine/Transient.World_6:PersistentLevel.ChildActor1_GEN_VARIABLE_Spinner_C_CAT_594 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.11.15-00.46.24:546][564]LogActor: Warning: Spinner_C /Engine/Transient.World_6:PersistentLevel.ChildActor_GEN_VARIABLE_Spinner_C_CAT_595 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.11.15-00.46.24:954][564]LogActor: Warning: Windmill_C /Engine/Transient.World_8:PersistentLevel.ChildActor_GEN_VARIABLE_Windmill_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.11.15-00.46.24:954][564]LogActor: Warning: Windmill_C /Engine/Transient.World_8:PersistentLevel.ChildActor1_GEN_VARIABLE_Windmill_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.11.15-00.46.26:332][611]LogSavePackage: Save=173.68ms
+[2017.11.15-00.46.26:332][611]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/RunCharacter296B171A43F9E1D8C1C2D685B455C0B3.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2017.11.15-00.46.26:337][611]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
+[2017.11.15-00.46.26:994][689]LogTemp: Repeating last play command: Standalone Game
+[2017.11.15-00.46.28:765][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ObjectModels/Ship2" FILE="../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ObjectModels/Ship2.uasset" SILENT=true
+[2017.11.15-00.46.28:777][689]LogSavePackage: Save=9.00ms
+[2017.11.15-00.46.28:777][689]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Ship2666C6B6E41E369C743385E8473B4E263.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ObjectModels/Ship2.uasset'
+[2017.11.15-00.46.28:781][689]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ObjectModels/Ship2.uasset
+[2017.11.15-00.46.28:884][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ObjectModels/ShipRetry" FILE="../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ObjectModels/ShipRetry.uasset" SILENT=true
+[2017.11.15-00.46.28:895][689]LogSavePackage: Save=8.76ms
+[2017.11.15-00.46.28:895][689]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/ShipRetry09E728634BFB493A6AED48A48AF9040D.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ObjectModels/ShipRetry.uasset'
+[2017.11.15-00.46.28:899][689]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/ObjectModels/ShipRetry.uasset
+[2017.11.15-00.46.29:108][689]LogSavePackage: Save=46.96ms
+[2017.11.15-00.46.29:108][689]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/UEDPCMainMenuLevel40B370854629E3709A9E8B8AB551C753.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap'
+[2017.11.15-00.46.29:112][689]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap
+[2017.11.15-00.46.29:119][689]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.11.15-00.48.33:023][ 28]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:159).
+[2017.11.15-00.48.33:046][ 29]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.15-00.48.40:000][828]LogSavePackage: Save=44.59ms
+[2017.11.15-00.48.40:000][828]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/MainMenuLevelC45378B641B5CA3030514DB1757C8C30.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel.umap'
+[2017.11.15-00.48.40:003][828]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel.umap
+[2017.11.15-00.48.40:111][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenuLevel_BuiltData" FILE="../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel_BuiltData.uasset" SILENT=true
+[2017.11.15-00.48.40:162][828]LogSavePackage: Save=6.86ms
+[2017.11.15-00.48.40:162][828]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/MainMenuLevel_BuiltData5D08D190496EA66695E752961A9EC1C8.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel_BuiltData.uasset'
+[2017.11.15-00.48.40:165][828]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel_BuiltData.uasset
+[2017.11.15-00.48.41:826][ 27]MapCheck: New page: Map Check
+[2017.11.15-00.48.41:839][ 27]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.15-00.48.41:839][ 27]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.15-00.48.41:870][ 27]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.11.15-00.48.41:879][ 27]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.11.15-00.48.41:884][ 27]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.11.15-00.48.42:273][ 27]TextureStreamingBuild: Display: Compiling optional shaders took 0.408 seconds.
+[2017.11.15-00.48.42:279][ 27]LogLevel: Display: Export Material TexCoord Scales took 0.005 seconds.
+[2017.11.15-00.48.42:282][ 27]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2017.11.15-00.48.42:301][ 27]LightingResults: New page: Lighting Build - Nov 14, 2017, 8:48:42 AM
+[2017.11.15-00.48.42:344][ 27]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.15-00.48.42:382][ 27]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.15-00.48.42:412][ 27]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.15-00.48.43:437][ 27]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.15-00.48.43:437][ 27]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10376
+[2017.11.15-00.48.45:960][ 27]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.15-00.48.45:960][ 27]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.15-00.48.45:960][ 27]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.15-00.48.45:960][ 27]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.15-00.48.45:960][ 27]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.15-00.48.45:960][ 27]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.15-00.48.46:069][ 27]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.15-00.48.46:069][ 27]MapCheck: New page: MainMenuLevel - Nov 14, 2017, 8:48:46 AM
+[2017.11.15-00.48.46:128][ 27]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.023ms to complete.
+[2017.11.15-00.48.46:150][ 27]LogEditorBuildUtils: Build time 0:04
+[2017.11.15-00.48.47:046][ 68]Job is a success!
+[2017.11.15-00.48.47:120][ 70]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.11.15-00.48.47:120][ 70]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.11.15-00.48.47:120][ 70]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.11.15-00.48.47:120][ 70]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.11.15-00.48.47:120][ 70]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2017.11.15-00.48.47:120][ 70]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.11.15-00.48.47:144][ 70]Lightmass on DESKTOP-KK7AP88: 426 ms total, 65 ms importing, 6 ms setup, 110 ms photons, 199 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 765 ms total, 153 ms processing.
+[2017.11.15-00.48.47:172][ 70]LogStaticLightingSystem: Illumination: 4.85 sec (8 ms encoding lightmaps, 7 ms encoding shadowmaps)
+[2017.11.15-00.48.47:172][ 70]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.15-00.48.47:172][ 70]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.15-00.48.47:963][ 70]DumpUnbuiltLightIteractions
+[2017.11.15-00.48.47:964][ 70]Lights with unbuilt interactions: 0
+[2017.11.15-00.48.47:964][ 70]
+[2017.11.15-00.48.47:964][ 70]Primitives with unbuilt interactions: 0
+[2017.11.15-00.48.47:974][ 71]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.15-00.48.47:974][ 71]MapCheck: New page: MainMenuLevel - Nov 14, 2017, 8:48:47 AM
+[2017.11.15-00.48.48:032][ 71]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.453ms to complete.
+[2017.11.15-00.49.05:279][ 87]LogSavePackage: Save=41.94ms
+[2017.11.15-00.49.05:279][ 87]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/MainMenuLevelA115233244EA18EA6910FCB425955336.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel.umap'
+[2017.11.15-00.49.05:284][ 87]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel.umap
+[2017.11.15-00.49.05:393][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenuLevel_BuiltData" FILE="../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel_BuiltData.uasset" SILENT=true
+[2017.11.15-00.49.05:449][ 87]LogSavePackage: Save=6.19ms
+[2017.11.15-00.49.05:449][ 87]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/MainMenuLevel_BuiltDataC4D01F5649E26A112D2650B0C7B3AAF2.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel_BuiltData.uasset'
+[2017.11.15-00.49.05:454][ 87]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Content/Maps/MainMenuLevel_BuiltData.uasset
+[2017.11.15-00.49.11:339][786]LogTemp: Repeating last play command: Standalone Game
+[2017.11.15-00.49.11:554][786]LogSavePackage: Save=46.04ms
+[2017.11.15-00.49.11:554][786]LogSavePackage: Moving '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/UEDPCMainMenuLevel75E0C94B4E4667EE5E8F15883C7CDB68.tmp' to '../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap'
+[2017.11.15-00.49.11:557][786]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Branden/Documents/GitHub/Runner3D/EndlessRunner/Saved/Autosaves/Game/Maps/UEDPCMainMenuLevel.umap
+[2017.11.15-00.49.11:563][786]LogEditorTransaction: Undo Spawn Play From Here Start
